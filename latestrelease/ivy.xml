@@ -1,7 +1,7 @@
 <ivy-module version="2.0">
-    <info organisation="prom" module="NewPackageIvy" revision="latest">
+    <info organisation="prom" module="DirectlyFollowsModelMiner" revision="latest">
     	<description>
-    		Version 6.14.4
+    		Version 6.14.1
     	</description>
     </info>
     <configurations>
@@ -16,6 +16,7 @@
     	<!-- ProM packages. -->
     	<dependency org="prom" name="BasicUtils" rev="latest" changing="true" transitive="true" />
     	<dependency org="prom" name="Widgets" rev="latest" changing="true" transitive="true" />
+    	<dependency org="prom" name="InductiveMiner" rev="latest" changing="true" transitive="true" />
     	<!-- Third party libraries. These may span multiple lines. -->
     	<!-- Please uncomment the second line in the resolve target in your build.xml file
     	     if you have any third party libraries. -->
